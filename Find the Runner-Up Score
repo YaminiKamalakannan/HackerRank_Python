@@ -1,0 +1,15 @@
+n = int(input())
+arr =list( map(int, input().split()))
+arr.sort()
+num=arr[len(arr)-1]
+temp=0
+for i in range(len(arr)-1,0,-1):
+  if arr[i]==arr[i-1]:
+     continue
+  else:
+     res=arr[i-1]
+     break
+
+print(res)  
+
+
