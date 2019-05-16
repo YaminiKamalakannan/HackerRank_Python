@@ -12,5 +12,5 @@ for i in range ( x + 1 ) :
               
                ar[p] = [ i,j,k ]
                p+=1
-print (ar)
+print (ar) #Print the list in lexicographic increasing order
 
